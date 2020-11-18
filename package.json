@@ -1,0 +1,18 @@
+{
+  "name": "myTests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "protractor.chrome.conf.js",
+  "dependencies": {
+    "@types/protractor": "^4.0.0",
+    "jasmine": "^3.5.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "protractor": "^5.4.3"
+  },
+  "scripts": {
+    "pretest": "webdriver-manager update",
+    "test": "protractor protractor.chrome.conf.js"
+  }
+}
